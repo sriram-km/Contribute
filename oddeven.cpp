@@ -2,6 +2,24 @@
 
 using namespace std; 
 
+void check(int n)
+{
+    if(n%2==0)
+    
+    {
+        
+        cout<<n<<" is a Even no.";
+        
+    }
+    else
+    {
+        
+        cout<<n<<" is a Odd no.";
+        
+    }
+    
+}
+
 int main() 
 
 { 
@@ -11,16 +29,8 @@ int main()
 	cout << "Enter an integer: "; 
 
 	cin >> num; 
-
-	
-
-	if ( num % 2 == 0) 
-
-		cout << num << " is even."; 
-
-	else
-
-		cout << num << " is odd."; 
+    
+	check(num);
 
 	return 0; 
 
